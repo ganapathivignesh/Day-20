@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script>
+  function upper() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+function lang() {
+  selected = document.forms[0].lang1.value;
+  alert("you have selected " + selected);
+}
+function color(color) {
+  document.forms[0].myInput.style.background = color;
+}
+	
+  </script>
+ </head>
+ <body>
+
+  Enter your name: <input type="text" id="fname" onblur="upper()">
+  <form>
+select the language u want to learn:<br>
+  <select id="lang1" onchange="lang()">
+    <option value="java">java</option>
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+  </select>
+  <br>Write a message:<br>
+<input 
+type="text" 
+onkeydown="color('red')"
+onkeyup="color('white')"
+name="myInput">
+</form>
+
+ </body>
+</html>
