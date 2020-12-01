@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE address[
+<!ELEMENT address  (personname,homeaddress,telphone,email,birthdate)>
+<!ELEMENT personname (#PCDATA)>
+<!ELEMENT homeaddress (#PCDATA)>
+<!ELEMENT telphone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT birthdate (#PCDATA)>
+]>
+<address>
+	<personname>anderson</personname>
+	<homeaddress>mumbai</homeaddress>
+	<telphone>9944668777</telphone>
+	<email>dear@gmail.com</email>
+	<birthdate>17-09-1997</birthdate>
+</address>

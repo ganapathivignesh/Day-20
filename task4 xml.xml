@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address1 [
+<!ELEMENT address1 (name,address,email,company)>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT address (street,doorno,zip,country)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT doorno (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT company (companyname,websites)>
+<!ELEMENT companyname (#PCDATA)>
+<!ELEMENT websites (name,siteaddress)>
+]>
+<address1>
+<name>
+<firstname>raghu</firstname>
+<lastname>v</lastname>
+</name>
+<address>
+<street>4th cross street</street>
+<doorno>2/895</doorno>
+<zip>658741</zip>
+<country>India</country>
+</address>
+<email>amazon@yahoo.com</email>
+<company>
+<companyname>red tech</companyname>
+<websites>
+<name> www.redtech.com</name>
+<siteaddress>192.52.36.32</siteaddress>
+</websites>
+</company>
+</address1>
